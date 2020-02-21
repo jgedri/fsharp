@@ -12,5 +12,5 @@ module Person =
         {First=first; Last=last}
 
         // standalone function
-    let fullName {First=first; last=last} =
-         first + " " last
+       let fullName {First=first; Last=last} =
+        first + " " last
